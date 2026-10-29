@@ -1,0 +1,39 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "maipo-router/maipo-auto",
+  "small_model": "maipo-router/data-worker",
+  "provider": {
+    "maipo-router": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Hackathon Río Maipo Router",
+      "options": {
+        "baseURL": "https://maipo-router-1095563500960.southamerica-west1.run.app/v1",
+        "apiKey": "sk-maipo-Xqa2CTPWAzseTdLpy_75XQUydK4sc3Gx"
+      },
+      "models": {
+        "maipo-auto": {
+          "name": "Maipo Auto Router (Jev 1.13 -> Gemini 4 Argon / Qwen 3.8 Max / DeepSeek V4.1 Flash)",
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true,
+          "tool_call": true,
+          "limit": {
+            "context": 128000,
+            "output": 16384
+          }
+        },
+        "data-worker": {
+          "name": "Maipo Data Worker (DeepSeek V4.1 Flash 1017)",
+          "attachment": false,
+          "reasoning": false,
+          "temperature": true,
+          "tool_call": true,
+          "limit": {
+            "context": 128000,
+            "output": 8192
+          }
+        }
+      }
+    }
+  }
+}

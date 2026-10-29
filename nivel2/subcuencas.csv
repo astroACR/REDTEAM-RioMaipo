@@ -1,0 +1,13 @@
+subcuenca_id,nombre,tipo,drena_a,area_km2,elev_media_m,pend_media_deg,pct_glaciar,pct_area_sobre_4000m,geologia,tiene_ssc
+hualtatas,Río Maipo en Las Hualtatas,cuenca,melosas,1035.5,3320.0,28.5,7.6,10.7,sedimentaria mixta,0
+melosas,Río Maipo en Las Melosas,cuenca,san_alfonso,1462.7,3192.0,28.6,5.4,7.8,sedimentaria mixta,0
+volcan,Río Volcán en Queltehues,cuenca,san_alfonso,523.4,3368.0,28.3,14.2,18.6,sedimentaria mixta,0
+echaurren,Estero Glaciar Echaurren,cuenca,yeso_residuo,32.6,3591.0,26.7,3.2,12.8,volcánica ácida,0
+yeso_residuo,Subcuenca Río Yeso + intermedio hasta San Alfonso,residual,san_alfonso,800.6,3084.0,26.9,5.3,12.6,sedimentaria mixta,0
+san_alfonso,Río Maipo en San Alfonso,cuenca,manzano,2786.7,3194.0,28.1,7.0,11.2,sedimentaria mixta,1
+colorado_alto,Río Colorado antes junta Río Olivares,cuenca,colorado_maipo,783.3,3733.0,29.6,9.5,34.8,sedimentaria carbonatada,0
+olivares,Río Olivares antes junta Río Colorado,cuenca,colorado_maipo,541.5,3688.0,28.8,14.3,39.4,volcánica ácida,0
+colorado_bajo_residuo,Río Colorado bajo (sector Maitenes),residual,colorado_maipo,337.9,2248.0,26.2,0.0,0.1,volcánica ácida,0
+colorado_maipo,Río Colorado antes junta Río Maipo,cuenca,manzano,1662.7,3417.0,28.6,9.1,29.3,volcánica ácida,1
+manzano_local_residuo,Aporte lateral entre San Alfonso/Colorado y El Manzano,residual,manzano,389.5,2092.0,25.0,0.0,0.0,volcánica ácida,0
+manzano,Río Maipo en El Manzano,cuenca,,4839.0,3182.0,28.0,7.2,16.5,volcánica ácida,1
